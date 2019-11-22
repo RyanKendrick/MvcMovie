@@ -8,9 +8,10 @@ namespace MvcMovie.Controllers
         //
         // GET: /HelloWorld/
         // Every public method in a controller is callable as an HTTP endpoint
-        public string Index()
+        public IActionResult Index()
         {
-            return "This is my default action...";
+            // code calls the controller's View method. It uses a view template to generate an HTML response.
+            return View();
         }
 
         // GET: /HelloWorld/Welcome/
