@@ -8335,7 +8335,7 @@
     ".NETCoreApp,Version=v3.0": [
       "Microsoft.EntityFrameworkCore.Design >= 3.0.1",
       "Microsoft.EntityFrameworkCore.SQLite >= 3.0.1",
-      "Microsoft.EntityFrameworkCore.SqlServer",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.0.0"
     ]
   },
@@ -8392,7 +8392,7 @@
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[3.0.1, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
