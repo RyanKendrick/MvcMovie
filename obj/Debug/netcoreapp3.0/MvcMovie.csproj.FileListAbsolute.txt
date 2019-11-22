@@ -34,3 +34,4 @@ C:\Users\VR Listing\Code\MvcMovie\obj\Debug\netcoreapp3.0\MvcMovie.dll
 C:\Users\VR Listing\Code\MvcMovie\obj\Debug\netcoreapp3.0\MvcMovie.pdb
 C:\Users\VR Listing\Code\MvcMovie\obj\Debug\netcoreapp3.0\MvcMovie.csproj.CopyComplete
 C:\Users\VR Listing\Code\MvcMovie\obj\Debug\netcoreapp3.0\Razor\Views\HelloWorld\Index.cshtml.g.cs
+C:\Users\VR Listing\Code\MvcMovie\obj\Debug\netcoreapp3.0\Razor\Views\HelloWorld\Welcome.cshtml.g.cs
