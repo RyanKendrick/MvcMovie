@@ -5,17 +5,21 @@ namespace MvcMovie.Controllers
 {
     public class HelloWorldController : Controller
     {
-        public IActionResult Index()
+        //
+        // GET: /HelloWorld/
+
+        public string Index()
         {
-            return View();
+            return "This is my default action...";
         }
 
-        public IActionResult Welcome(string name, int numTimes = 1)
+        // GET: /HelloWorld/Welcome/
+        // Requires using System.Text.Encodings.Web;
+        // Uses the C# optional-parameter feature to indicate that the numTimes parameter defaults to 1 if no value is passed for that parameter.
+        // Uses HtmlEncoder.Default.Encode to protect the app from malicious input (namely JavaScript).
+        public string Welcome(string name, int ID = 1)
         {
-            ViewData["Message"] = "Hello " + name;
-            ViewData["NumTimes"] = numTimes;
-
-            return View();
+            return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
         }
     }
 }
