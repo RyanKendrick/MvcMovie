@@ -27,6 +27,7 @@ namespace MvcMovie
         {
             services.AddControllersWithViews();
 
+            // The name of the connection string is passed in to the context by calling a method on a DbContextOptions object. For local development, the ASP.NET Core configuration system reads the connection string from the appsettings.json file.
             services.AddDbContext<MvcMovieContext>(options =>
                 options.UseSqlite(Configuration.GetConnectionString("MvcMovieContext")));
         }
